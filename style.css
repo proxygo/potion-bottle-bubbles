@@ -1,0 +1,219 @@
+body {
+    background: rgb(20, 10, 39);
+}
+
+.container {
+    position: relative;
+    width: 900px;
+    height: 50px;
+    left: 25%;
+    top: 54%;
+    scale: 60%;
+}
+
+.linha2 {
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 200%;
+    top: 130px;
+    border-radius: 25%;
+    background: transparent;
+    border: 3px solid;
+    border-color: #dadbfd transparent transparent transparent;
+    transform: rotate(180deg);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.linha3 {
+    position: absolute;
+    width: 75px;
+    height: 50px;
+    left: 208%;
+    top: 78px;
+    border-radius: 30%;
+    background: transparent;
+    border: 1.9px solid;
+    border-color: #dadbfd transparent transparent transparent;
+    transform: rotate(180deg);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.linha {
+    position: absolute;
+    background: rgb(199, 238, 251);
+    width: 105px;
+    height: 15px;
+    border-radius: 92%;
+    left: 406px;
+    top: -243px;
+    z-index: 1;
+}
+.bottle {
+    position: absolute;
+    background: lightblue;
+    width: 200px;
+    height: 250px;
+    border-radius: 15%;
+    left: 40%;
+    top: -310%;
+    opacity: 5;
+}
+
+.gargalo {
+    position: absolute;
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    left: 410px;
+    top: -240px;
+}
+
+.boca {
+    position: absolute;
+    background: lightblue;
+    width: 120px;
+    height: 30px;
+    border-radius: 32%;
+    left: 399px;
+    top: -245px;
+
+}
+
+.potion {
+    position: absolute;
+    background: rgb(208, 98, 252);
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    left: 43%;
+    top: -80px;
+}
+
+
+
+.sombra {
+    position: absolute;
+    background: rgb(45, 51, 53);
+    width: 230px;
+    height: 50px;
+    border-radius: 92%;
+    left: 330px;
+    top: 70px;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+.brilho {
+    position: absolute;
+    background: rgb(207, 224, 255);
+    width: 30px;
+    height: 100px;
+    border-radius: 40%;
+    left: 57%;
+    top: -115px;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.container-bolhas {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    left: 25%;
+    z-index: 1;
+}
+
+.bolhas {
+    z-index: ;
+    animation: bubble 1.4s ease infinite;
+    animation-delay: 0.2s;
+    background: rgb(208, 98, 252);
+    height: 22px;
+    width: 22px;
+    border-radius: 100%;
+    left: 28.1em;
+    bottom: 2em;
+    position: absolute;
+    opacity: 1;
+}
+
+.bolhas2 {
+    z-index: ;
+    animation: bubble 1.3s ease infinite;
+    animation-delay: 0.1s;
+    background: rgb(208, 98, 252);
+    height: 11px;
+    width: 11px;
+    border-radius: 100%;
+    left: 27.5em;
+    bottom: 2em;
+    position: absolute;
+    opacity: 1;
+}
+
+.bolhas3 {
+    z-index: ;
+    animation: bubble 1.2s ease infinite;
+    animation-delay: -0.1s;
+    background: rgb(208, 98, 252);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    left: 28.5em;
+    bottom: 2em;
+    position: absolute;
+    opacity: 1;
+}
+
+.bolhas4 {
+    z-index: 999;
+    animation: bubble 1.1s ease infinite;
+    animation-delay: -0.1s;
+    background: rgb(208, 98, 252);
+    height: 18px;
+    width: 18px;
+    border-radius: 100%;
+    left: 28em;
+    bottom: 2em;
+    position: absolute;
+    opacity: 1;
+    z-index: -1;
+}
+
+
+
+@keyframes bubble {
+    0% {
+        opacity: 5;
+    }
+
+    20% {
+        opacity: 4;
+        bottom: 3em;
+    }
+
+    50% {
+        opacity: 3;
+        bottom: 4em;
+    }
+
+    80% {
+        opacity: 2;
+        bottom: 5em;
+    }
+
+    90% {
+        opacity: 1;
+        bottom: 6em;
+    }
+
+    100% {
+        opacity: 0;
+        bottom: 9em;
+
+    }
+}
